@@ -1,0 +1,150 @@
+/*D7D7D7*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --wer: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+}
+.body {
+    font-size: 15pt;
+    background: #000;
+    color: #fff;
+    font-family: var(--wer);
+}
+
+.giu{
+    position: relative;
+}
+
+.bem{
+    background:#42445A1F;
+    height: 20vh;
+    width: 100%;
+    border-bottom-right-radius: 100%;
+    border-bottom-left-radius: 100%;
+    padding: 5px;
+}
+
+.fileds{
+    text-align: left;
+    padding: 10px;
+}
+
+.top{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background: #5E5E5E78;
+    backdrop-filter: blur(10px);
+    border-bottom:1px solid #6D6D6D30;
+    height: 7vh;
+    display: flex;
+    justify-content: space-between;
+    z-index: 5;
+}
+.line{
+    background: #fff;
+    height: 5px;
+    border-radius: 10px;
+    width: 35px;
+    margin-top: 5px;
+}
+.logo, .home{
+    margin: 15px;
+}
+
+.one{
+    margin-top:15%;
+}
+
+.haz{
+    background: #9D5FD4;
+    border-bottom-right-radius: 30%;
+    border-top-right-radius: 100%;
+    border-top-left-radius: 100%;
+    border-bottom-left-radius: 100%;
+    padding: 10px;
+    height: 30vh;
+    display:flex;
+    justify-content: space-around;
+    animation: --diy 4s linear infinite;
+}
+
+@keyframes --diy{
+    0%{
+        border-bottom-right-radius: 30%;
+        border-bottom-left-radius: 90%;
+    }
+    10%{
+        border-bottom-right-radius: 50%;
+        border-bottom-left-radius: 50%;
+    }
+    50%{
+        border-bottom-right-radius:80%;
+        border-top-left-radius: 20%;
+    }
+}
+
+.one{
+    text-align: left;
+    padding: 5px;
+}
+
+.kym{
+    position: fixed;
+    height: 100vh;
+    top: 0;
+    background: #000;
+    width: 100%;
+    z-index: 3;
+    display: none;
+}
+.tyui{
+    display: flex;
+}
+
+.gifh{
+    margin-left: -30px;
+}
+
+.h45{
+    margin-top: 30px;
+    margin-left: -30px;
+}
+
+.homoh{
+    margin-top: 20%;
+}
+.ion{
+    width: 30px;
+    height: 30px;
+}
+.bots{
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    background: #9D5FD4;
+    font-size: 20px;
+    margin: 20% auto 10px;
+    width: 90%;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.cret{
+    display: flex;
+    margin: 0 auto 10px;
+    justify-content: space-around;
+}
+.dio{
+    position: fixed;
+    background:#5E5E5E78;
+    backdrop-filter: blur(10px);
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
