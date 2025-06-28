@@ -17,7 +17,7 @@ display: none;
 }
 
 @media(max-width: 999px){
-body{
+.body{
 display: inline;
 }
 }
