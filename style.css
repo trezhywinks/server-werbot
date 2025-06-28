@@ -13,6 +13,13 @@
     background: #000;
     color: #fff;
     font-family: var(--wer);
+display: none;
+}
+
+@media(max-width: 999px){
+body{
+display: inline;
+}
 }
 
 .giu{
